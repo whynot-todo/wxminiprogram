@@ -1,16 +1,34 @@
 {
-  "pages": [
-    "pages/list/list",
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/detail/detail"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/list/list",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/detail/detail",
+        "pages/movie/movie"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/list/list",
+                "text": "咨询",
+                "iconPath": "/images/tab/yuedu.png",
+                "selectedIconPath": "/images/tab/yuedu_hl.png"
+            },
+            {
+                "pagePath": "pages/movie/movie",
+                "text": "电影频道",
+                "iconPath": "/images/tab/dianying.png",
+                "selectedIconPath": "/images/tab/dianying_hl.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }
